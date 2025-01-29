@@ -145,7 +145,7 @@ for index, row in data.iterrows():
                 fecha_finalizacion_proceso, respuesta_oportuna, comentario,
                 dependencia_responsable, estado, vencido
             ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s,
-                      %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                    %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
         """, (
             row['NUMPRO'], convertir_fecha(row['FECHA_CREACION']), row['CATEGORIA'], row['LOCALIDAD'],
             row['NUMRAD'], convertir_fecha(row['FECRAD']), row['VENCIMIENTO_DIAS'], row['TIPO_TERCERO'],
